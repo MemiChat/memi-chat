@@ -45,7 +45,7 @@ Memi Chat is a free AI chat app built with Expo React Native. This prototype sup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-org>/memi-chat.git
+   git clone https://github.com/MemiChat/memi-chat.git
    cd memi-chat
    ```
 2. **Install dependencies**
