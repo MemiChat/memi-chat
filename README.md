@@ -1,12 +1,28 @@
-# Memi Chat - Free AI Chat
+<p align="center"><img height="150" alt="Memi Chat Logo" src="https://github.com/user-attachments/assets/6afd4951-ae60-4f81-a664-1284927dbe22" /></p>
+<p align="center">
+  <strong>Memi Chat - Free AI Chat</strong><br />
+  Prototype (Rough Version)<br />  
+</p>
 
-**Prototype (Rough Version)**
+<i>Memi</i> is short for <i>Memini</i> — “Remember” in Latin.
+<table border="0">
+  <tr>
+    <td>
+      <img src="/images/sr.gif" alt="Memi Chat Demo" height="450" />
+    </td>
+    <td>
+      <img src="/images/ss3.jpg" alt="Memi Chat Screenshot" height="450" />
+    </td>
+   <td>
+      <img src="/images/ss1.jpg" alt="Memi Chat Screenshot" height="450" />
+    </td>
+  </tr>
+</table>
 
-_Memi_ is short for _Memini_ — “Remember” in Latin.
 
 ## Description
 
-Memi Chat is a free AI-powered chat application built with Expo and React Native. This prototype supports:
+Memi Chat is a free AI chat app built with Expo React Native. This prototype supports:
 
 - **Multi-conversation support**: Juggle multiple chat threads seamlessly.
 - **Memory feature**: Retain context and recall past conversations.
@@ -49,7 +65,7 @@ Memi Chat is a free AI-powered chat application built with Expo and React Native
 
 ## Environment Variables
 
-Check a .env.example file in the each project root
+Check .env.example file in the each project root
 
 ## TODO
 
