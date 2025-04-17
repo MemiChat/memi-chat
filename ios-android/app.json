@@ -1,0 +1,85 @@
+{
+  "expo": {
+    "name": "Memi Chat",
+    "slug": "memi-chat",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "memichat",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1f1f1f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.memi.chat",
+      "icon": {
+        "dark": "./assets/images/ios-dark.png",
+        "light": "./assets/images/ios-light.png",
+        "tinted": "./assets/images/ios-tinted.png"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.memi.chat",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1f1f1f"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk",
+          "distribution": "internal"
+        }
+      },
+      "production": {}
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1f1f1f"
+        }
+      ],
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": false,
+          "supportsPictureInPicture": false
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "react-native",
+          "organization": "memi-chat"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96b2f641-cdaf-46c1-b3fe-8d829ae4791a"
+      }
+    }
+  }
+}

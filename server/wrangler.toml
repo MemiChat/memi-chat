@@ -1,0 +1,20 @@
+name = "server"
+main = "src/index.ts"
+compatibility_date = "2025-03-21"
+compatibility_flags = [ "nodejs_compat" ]
+upload_source_maps = true
+
+[[kv_namespaces]]
+binding = "KV"
+id = ""
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = ""
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "storage"
+
+[observability]
+enabled = true

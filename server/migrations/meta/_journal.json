@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1742257714522,
+      "tag": "0000_public_odin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1742262320285,
+      "tag": "0001_premium_christian_walker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1742434009205,
+      "tag": "0002_strange_ink",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1742550591577,
+      "tag": "0003_happy_killmonger",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1742781721695,
+      "tag": "0004_square_dakota_north",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1742806022368,
+      "tag": "0005_rapid_sunspot",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1744094279684,
+      "tag": "0006_curvy_the_call",
+      "breakpoints": true
+    }
+  ]
+}

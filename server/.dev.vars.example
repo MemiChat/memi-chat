@@ -1,0 +1,6 @@
+SECRET=
+NODE_ENV=development
+API_URL=http://localhost:8787
+GEMINI_API_KEY=
+RESEND_API_KEY=
+SENTRY_DSN=
