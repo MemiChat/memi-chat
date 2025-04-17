@@ -4,7 +4,7 @@
   Prototype (Rough Version)<br />  
 </p>
 
-<i>Memi</i> is short for <i>Memini</i> — “Remember” in Latin.
+> _Memi_ is short for _Memini_ — _“Remember”_ in Latin.
 <table border="0">
   <tr>
     <td>
